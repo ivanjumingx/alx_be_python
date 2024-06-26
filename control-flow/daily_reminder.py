@@ -23,6 +23,5 @@ def get_reminder(task, priority, time_bound):
     return reminder
 
 # Generate and print the reminder
-reminder_message = get_reminder(task, priority, time_bound)
-print("Reminder:", reminder_message)
-
+reminder = get_reminder(task, priority, time_bound)
+print("Reminder:", reminder)
