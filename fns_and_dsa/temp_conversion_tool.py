@@ -32,4 +32,3 @@ def temp_conversion_tool():
 
 if __name__ == "__main__":
     temp_conversion_tool()
-
