@@ -28,6 +28,7 @@ def view_list(shopping_list):
 
 def main():
     shopping_list = []
+    print("Shopping List Manager")  # Added this line
     while True:
         display_menu()
         choice = input("Enter your choice: ").strip()
